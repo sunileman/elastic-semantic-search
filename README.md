@@ -7,12 +7,11 @@ Demo Elastic Learned Sparse EncodeR (ELSER)
 - Download and deploy [ELSER](https://www.elastic.co/guide/en/machine-learning/current/ml-nlp-elser.html#download-deploy-elser "ELSER")
 - Upload movie_plots.csv via Kibana to a new index named `wiki-movie-plot-raw`.  Ignore any errors during upload
 - Install npm modules
- - npm install express
- - npm install @elastic/elasticsearch
- - npm install html
- - npm install axios
- Create the demo index
- - 
+  - npm install express
+  - npm install @elastic/elasticsearch
+  - npm install html
+  - npm install axios
+  - Create the demo index
 ```
 PUT elser-movie-demo
 {
@@ -29,8 +28,7 @@ PUT elser-movie-demo
 } 
 ```
 
-- Create ingest pipeline
- - 
+ - Create ingest pipeline
 ```
 PUT _ingest/pipeline/elser-movie-test
 {
@@ -52,8 +50,7 @@ PUT _ingest/pipeline/elser-movie-test
   ]
 }
 ```
-- Reindex raw movie plot index into the demo index
- - 
+ - Reindex raw movie plot index into the demo index 
 ```
 POST _reindex?wait_for_completion=false
 {
@@ -68,7 +65,7 @@ POST _reindex?wait_for_completion=false
 ```
 This will return a task ID.  Monitor progress of the reindex `GET _tasks/<TaskID>`
 
-- Point the UI to a ES endpoint.  Updated searchdemo.js
+ - Point the UI to a ES endpoint.  Updated searchdemo.js
 ```
 const client = new Client({
     cloud: {
