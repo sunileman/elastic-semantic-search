@@ -1,0 +1,7 @@
+elser-movie-demo.script
+node_modules/
+package-lock.json
+.gitignore
+package.json
+.DS_Store
+es-index-script.setup

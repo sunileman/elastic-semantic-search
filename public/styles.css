@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#search {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Existing styles */
+
+#results {
+    margin-top: 20px;
+    height: 60vh;    /* Set the height to your preference */
+    overflow: auto;  /* Enable scroll if content overflows */
+    border: 1px solid #ddd;  /* Optional, adds a border around the results */
+    padding: 10px;  /* Optional, adds some space around the text */
+}
+
