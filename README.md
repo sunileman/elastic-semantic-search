@@ -80,7 +80,7 @@ const client = new Client({
 
 
 - Launch the UI
- - `node searchdemo.js`
+  - `node searchdemo.js`
 
 ------------
 
