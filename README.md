@@ -11,7 +11,7 @@ Demo Elastic Learned Sparse EncodeR (ELSER)
   - npm install @elastic/elasticsearch
   - npm install html
   - npm install axios
-  - Create the demo index
+- Create the demo index
 ```
 PUT elser-movie-demo
 {
