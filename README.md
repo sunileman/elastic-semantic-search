@@ -7,10 +7,10 @@ Demo Elastic Learned Sparse EncodeR (ELSER)
 - Download and deploy [ELSER](https://www.elastic.co/guide/en/machine-learning/current/ml-nlp-elser.html#download-deploy-elser "ELSER")
 - Upload movie_plots.csv via Kibana to a new index named `wiki-movie-plot-raw`.  Ignore any errors during upload
 - Install npm modules
-  - npm install express
-  - npm install @elastic/elasticsearch
-  - npm install html
-  - npm install axios
+  - `npm install express`
+  - `npm install @elastic/elasticsearch`
+  - `npm install html`
+  - `npm install axios`
 - Create the demo index
 ```
 PUT elser-movie-demo
